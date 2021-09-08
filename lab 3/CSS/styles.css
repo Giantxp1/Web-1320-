@@ -1,13 +1,21 @@
 body {
     background-color: #048ABF;
     font-size: 18px;
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> 80cb91bcaed6dd2ad283c2c369ee9a26be39e19d
 }
 img {
     display: block;
     max-width: 200%;
+<<<<<<< HEAD
     margin: auto;
+=======
+    margin: 0 auto;
+    size: 100px;
+>>>>>>> 80cb91bcaed6dd2ad283c2c369ee9a26be39e19d
 }
 
 /* Moblie Style */
@@ -19,12 +27,18 @@ img {
 header {
     padding: 60px 40px;
     border-bottom: 4px solid #F28705;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 80cb91bcaed6dd2ad283c2c369ee9a26be39e19d
 }
 header h1 {
 text-align: center;
 font-size: 2.5em;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 80cb91bcaed6dd2ad283c2c369ee9a26be39e19d
 }
 
 .col { 
@@ -32,6 +46,7 @@ font-size: 2.5em;
     padding: 100px;
     margin: 20px;
     border-radius: 20px;
+<<<<<<< HEAD
     text-align: center;
     align-content: center;
 }
@@ -43,6 +58,13 @@ font-size: 2.5em;
     font-size: 2em;
     width: 100px auto;
     margin: 30px auto;
+=======
+}
+
+.col h2 {
+    text-align: center;
+    font-size: 2em;
+>>>>>>> 80cb91bcaed6dd2ad283c2c369ee9a26be39e19d
 }
 
 .col image {
@@ -63,12 +85,20 @@ footer {
    }
     .col {
        width: 50%;
+<<<<<<< HEAD
       
    }
    
     .col img {
         width: 50%;
        
+=======
+       margin: 20px auto;
+   }
+   
+    .col img {
+        width: 30%;
+>>>>>>> 80cb91bcaed6dd2ad283c2c369ee9a26be39e19d
     }
 }
   
@@ -83,6 +113,7 @@ display: none;
     }
     #flex {
         display: flex;
+<<<<<<< HEAD
         align-content: center;
 }
 
@@ -99,13 +130,30 @@ display: none;
    
 
    
+=======
+}
+
+.col {
+    margin: 20px;
+}
+
+.col img {
+    width: 50%;
+>>>>>>> 80cb91bcaed6dd2ad283c2c369ee9a26be39e19d
 }
 
 .main_img {
     display: block;
+<<<<<<< HEAD
     width: 40%;
     margin: 20px auto;
    align-content: center;
 
 }
 }
+=======
+    width: 30%;
+    margin: 20px auto;
+}
+}
+>>>>>>> 80cb91bcaed6dd2ad283c2c369ee9a26be39e19d
