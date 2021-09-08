@@ -1,0 +1,111 @@
+body {
+    background-color: #048ABF;
+    font-size: 18px;
+    
+    
+}
+img {
+    display: block;
+    max-width: 200%;
+    margin: auto;
+}
+
+/* Moblie Style */
+
+#container {
+    background-color: #F28705;
+    margin: 20px;
+}
+header {
+    padding: 60px 40px;
+    border-bottom: 4px solid #F28705;
+    
+}
+header h1 {
+text-align: center;
+font-size: 2.5em;
+
+}
+
+.col { 
+    border: 4px solid #F28705;
+    padding: 100px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+.col h2 {
+    text-align: center;
+    font-size: 2em;
+    width: 100px auto;
+    margin: 30px auto;
+}
+
+.col image {
+    width: 50%;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    border-top: 4px solid #F28705;
+    font-weight: bold;
+}
+
+@media(min-width: 768px) {
+   #container {
+       width: 80%;
+       margin: 0 auto;
+   }
+    .col {
+       width: 50%;
+      
+   }
+   
+    .col img {
+        width: 50%;
+       
+    }
+}
+  
+.main_img {
+display: none;
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 75%;
+        border-radius: 20px;
+    }
+    #flex {
+        display: flex;
+        align-content: center;
+}
+
+.col {
+    align-content: center;
+    width: auto;
+    height: auto;
+}
+
+.col img {
+    width: 100%;
+    height: 65%;
+   
+   
+
+   
+}
+
+.main_img {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+   align-content: center;
+
+}
+}

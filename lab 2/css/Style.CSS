@@ -1,0 +1,135 @@
+
+body {
+    background-color:#b8b8bb ; 
+    background-image: url(https://d1466nnw0ex81e.cloudfront.net/n_iv/600/5335961.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+    
+     #Container { 
+    background-color: #f7f0f0;
+    
+    width: 900px; ;
+    margin: 20px auto;
+    
+     }
+    
+     header {
+        padding: 20px 0;
+        background-color: #b8b8bb;
+       
+    }
+    
+    header img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border: solid 10px black;
+    text-align: center;
+    }
+    
+    p {
+        text-align: center; 
+    
+    }
+    
+    h1{
+        text-align: center; 
+     font-weight: bold;
+     color: rgb(185, 41, 41);
+      
+    }
+    h2 {
+        text-align: center;
+     font-weight: bold;
+     color: rgb(185, 41, 41);
+      
+    }
+    
+    main {
+        display: inline-block;
+        width:fit-content;
+        margin: 0 auto;
+        border: solid 10px black;
+        text-align: center;
+        align-content: auto; 
+    }
+    
+    
+    
+    p {
+    text-align:left;
+    
+    
+    }
+    
+    nav{
+        text-align: center;
+        text-decoration: none; 
+    }
+    
+    nav a{
+        display: inline-block;
+        background-color: #D9D9D9;
+        height: 40px;
+        width: 175px;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #262626;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    
+    nav a:hover{
+        background-color: #262626;
+        color: #D9D9D9;
+    }
+    
+    li {
+        display: inline-block;
+        list-style-type:none;
+        
+        text-align: center;
+        } 
+    
+    main{
+        background-color: #D9D9D9;
+            padding: 20px;
+            margin: 0 20px 20px 20px;
+            text-align: center;
+    }
+    
+    footer{
+        color: rgb(185, 41, 41);
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 10px;
+        
+        
+        
+    }
+    
+    main h2 {
+    text-align: center;
+     color: rgb(185, 41, 41);
+    font-size: 2em;
+    
+    }
+    
+    main img {
+        display: block;
+        width: 60%;
+        margin: 50px auto;
+        background-color:  #A6A6A6;
+        padding: 10px;
+      align-content: center;
+    }
+    
+    
+    
+    
+    
+    

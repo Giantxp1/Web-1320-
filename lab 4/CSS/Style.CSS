@@ -1,0 +1,101 @@
+
+/* Global Styles*/
+body {
+    background-color: #468c58;
+}
+img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* Moblie Styles*/
+#container {
+    background-color: #70bf4b;
+    margin: 10px;
+    border: 4px solid #f2cf8d;
+}
+header { 
+    background-image: url('../images/gcourse1.jpg');
+background-size: cover;
+padding: 60px 0;
+}
+
+header h1 {
+    color: #f2cf8d;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #468c58;
+    color: #f2cf8d;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+background-color: #70bf4b;
+text-shadow: 1px 1px 1px #000;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #f2cf8d;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 4px solid #468c58;
+}
+
+.botton {
+    display: block;
+    background-color: #468c58;
+    color: #f2cf8d;
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+button:hover {
+   background-color: #70bf4b;
+   text-shadow: 1px 1px 1px #000;
+}
+
+h2, h3 {
+color: #468c58;
+text-shadow: 1px 1px 1px #000;
+font-size: 1.5em;
+text-align: center;
+}
+
+section img, aside img {
+    width: 65%;
+}
+footer { 
+    padding: 20px 0;
+    text-align: center;
+    color: #468c58;
+}
+/* Tablet Styles*/
+
+
+/* Desktop Styles*/
