@@ -1,101 +1,300 @@
-
-/* Global Styles*/
 body {
-    background-color: #468c58;
-}
-img{
+    background-color:#A6A6A6 ; 
+    background-image: url(https://pbs.twimg.com/media/EaLEwgsXYAACTiO?format=jpg&name=medium);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+    
+     #Container { 
+    background-color: #A6A6A6;
+    padding: 20px;
+    width: 900px; ;
+    margin: 20px auto;
+    
+     }
+    
+     header img {
     display: block;
-    max-width: 100%;
+    width: 70%;
     margin: 0 auto;
-}
-/* Moblie Styles*/
+    border: solid 10px red;
+    text-align: center;
+    }
+    
+    
+    p {
+        text-align: center; 
+    
+    }
+    
+    h1{
+        text-align: center; 
+     font-weight: bold;
+     color: red ;
+      
+    }
+
+    h2 {
+        text-align: center;
+     font-weight: bold;
+     color: red;
+      
+    }
+    
+    main {
+        display: inline-block;
+        width:fit-content;
+        margin: 0 auto;
+        border: solid 10px black;
+        text-align: center; 
+    }
+    
+     p {
+    text-align:center;
+    font: 1em sans-serif;
+
+    }
+    
+    nav{
+        text-align: center;
+        text-decoration: none; 
+        color: red;
+       
+    }
+    
+    nav a{
+        display: inline-block;
+        background-color: #D9D9D9;
+        height: 40px;
+        width: 175px;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: red;
+        border-radius: 10px;
+        padding: 10px;
+        
+        
+    }
+    
+    
+    nav a:hover {
+        background-color: #262626;
+        color: #D9D9D9;
+    }
+    
+    li {
+        display: inline-block;
+        list-style-type:none;
+        
+        text-align: center;
+        } 
+    
+    main{
+        background-color: #D9D9D9;
+            padding: 20px;
+            margin: 0 20px 20px 20px;
+            text-align: center;
+    }
+    
+    footer {
+        color: rgb(185, 41, 41);
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 10px;
+        
+        
+        
+    }
+    
+    main h2 {
+    text-align: center;
+     color: rgb(185, 41, 41);
+    font-size: 2em;
+    
+    }
+    
+    main img {
+        display: block;
+        width: 60%;
+        margin: 50px auto;
+        background-color:  #A6A6A6;
+        padding: 10px;
+      align-content: center;
+    }
+    /* Global Styles */
+    body {background-color: #A6A6A6;
+    }
+
+    img {
+        display:block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+   
+    /* Moblie Style */
+
 #container {
-    background-color: #70bf4b;
-    margin: 10px;
-    border: 4px solid #f2cf8d;
+    background-color: black;
+    margin:auto;
 }
-header { 
-    background-image: url('../images/gcourse1.jpg');
-background-size: cover;
+header {
+    background-image: url('../Berserk6.jpg');
+    background-size: cover;
 padding: 60px 0;
+    
 }
-
 header h1 {
-    color: #f2cf8d;
-    text-align: center;
-    text-shadow: 2px 2px 2px #000;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: block;
-}
-
-nav li a {
-    display: block;
-    background-color: #468c58;
-    color: #f2cf8d;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin: 10px 0;
-    font-size: 1.2em;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-nav li a:hover {
-background-color: #70bf4b;
-text-shadow: 1px 1px 1px #000;
-}
-
-nav, section, aside, .col, footer {
-    background-color: #f2cf8d;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    border: 4px solid #468c58;
-}
-
-.botton {
-    display: block;
-    background-color: #468c58;
-    color: #f2cf8d;
-    height: 40px;
-    width: 175px;
-    line-height: 40px;
-    text-align: center;
-    margin: 10px 0;
-    font-size: 1.2em;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-button:hover {
-   background-color: #70bf4b;
-   text-shadow: 1px 1px 1px #000;
-}
-
-h2, h3 {
-color: #468c58;
-text-shadow: 1px 1px 1px #000;
-font-size: 1.5em;
+    color: red;
+    text-shadow: 2px 2px #000;
 text-align: center;
+font-size: 2.5em;
 }
 
-section img, aside img {
-    width: 65%;
+.col { 
+    border: 4px solid red;
+    padding: 100px;
+    margin: 20px;
+    border-radius: 20px;
+    
 }
-footer { 
-    padding: 20px 0;
+nav{
+    align-items: center;
+    display: inline-block;
+}
+ section, aside, .col, footer {
+     background-color: #D9D9D9;
+     padding: .1px;
+     margin: .1px;
+     border: 2px solid black;
+     border-radius: 5px;
+     align-items: center;
+ }
+
+  
+ h2, h3 {
+     color: red;
+     text-shadow: 2px 2px 2px #000;
+     font-size: 2.5em;
+     text-align: center;
+ }
+
+ section img, aside img {
+     width: 50%;
+ }
+  
+ .button {
+    background-color: black;
+    color: red;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
-    color: #468c58;
+    text-decoration: #000;
+    font-size: 1em;
+    margin: 10px auto;
+    border: 10px;
+    border-radius: 10px;
+ }
+
+ .button:hover {
+    background-color: red;
+    text-shadow: 2px 2px 2px #000;
+ }
+
+ footer {
+    text-align: center;
+    color: #A6A6A6;
+ }
+ .single_col {
+     width: 100%;
+ }
+ audio, video {
+     display: block;
+     margin: 20px auto;
+     width: 75%;
+
+ }
+
+ table {
+     display: none;
+ }
+
+
+
+
+/* Tablet Styles */
+
+@media(min-width: 768px) {
+header {
+    padding: 125px;
 }
-/* Tablet Styles*/
+ header h1 {
+     font-size: 3em;
+     font-style: initial;
+ }
 
+ nav {
+     text-align: center;
+     padding: 5px;
+ }
 
-/* Desktop Styles*/
+ nav li {
+     display: inline-block;
+ }
+ nav li a {
+  height: 50px;
+    width: 100px;
+    line-height: 50px;
+ }
+
+ section, aside {
+     width: 100%;
+    }
+
+    aside img {
+        width: 100%;
+    }
+    .col img {
+        border-radius: 10px;
+        border: 4px solid black;
+
+    }
+    
+/* Desktop Styles */ 
+
+@media(min-width: 1024px) {
+    #container {
+        width: 65%;
+    }
+    
+    nav li a {
+        display: ;
+        margin: 0px;
+
+    }
+    .col {
+        width: 100%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid #262626;
+    }
+
+    table img {
+        width: 80%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
+        display: block;
+
+    } 
+}    
