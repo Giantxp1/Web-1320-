@@ -60,7 +60,6 @@ body {
         text-align: center;
         text-decoration: none; 
         color: #509BD4;
-        nav-right: 10px;
         align-content: center;
         
        
@@ -76,9 +75,7 @@ body {
         color: #509BD4;
         border-radius: 10px;
         padding: 10px;
-        margin: auto;
-       
-        
+        margin: auto; 
         
     }
     
@@ -99,13 +96,13 @@ body {
     main{
         background-color: #509BD4;
             padding: 20px;
-            margin: 0 20px 20px 20px;
+            margin: 20px auto;
             text-align: center;
+            width: 75%;
     }
     
     footer {
-        color: #509BD4(185, 41, 41);
-        width: 100%;
+        color: #509BD4;
         font-size: 1.5em;
         text-align: center;
         padding: 10px;
@@ -116,7 +113,7 @@ body {
     
     main h2 {
     text-align: center;
-     color: #509BD4(255, 0, 0);
+     color: #509BD4;
     font-size: 2em;
     
     }
@@ -172,8 +169,7 @@ font-size: 2.5em;
     
 }
 nav{
-    align-items: center;
-    display: inline-block;
+    text-align: center ;
 }
  section, aside, .col, footer {
      background-color: #DFCEA0;
@@ -197,6 +193,7 @@ nav{
  }
   
  .button {
+     display: block;
     background-color: #509BD4;
     color: #F7B229;
     height: 40px;
@@ -206,6 +203,7 @@ nav{
     font-size: 1.1em;
     margin: 20px auto;
     border: 10px;
+    width: 100px;
     border-radius: 10px;
     padding: 5px;
  }
@@ -232,7 +230,6 @@ nav{
  table {
      display: none;
  }
-
 
 
 
@@ -273,6 +270,7 @@ header {
         border: 4px solid black;
 
     }
+}
     
 /* Desktop Styles */ 
 
@@ -282,7 +280,6 @@ header {
     }
     
     nav li a {
-        display: images;
         margin: 0px;
 
     }
